@@ -21,7 +21,7 @@ const Main = () => {
                 <Route path={PATH.RECOVER_PASS} element={<RecoverPass/>}/>
                 <Route path={PATH.NEW_PASS} element={<NewPass/>}/>
                 <Route path={'test'} element={<Test/>}/>
-                <Route path={'*'} element={<Error404/>}/>
+                <Route path={'/error'} element={<Error404/>}/>
             </Routes>
 
         </>
